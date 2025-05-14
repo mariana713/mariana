@@ -12,3 +12,16 @@ if igual:
     print("el primernumero es igual a segundonumero")
 if menor:
     print("el primernumero es menor que segundonumero")
+
+##lista
+lista = [0,1,2,3,4,5,6,7]
+for elemento in lista[:]:
+    lista[elemento]=elemento*2
+    print(lista[elemento],end=",")
+print("")
+
+for x in range(10):
+    print(x)
+
+for x in range(1,7,2):
+    print(lista[x])
