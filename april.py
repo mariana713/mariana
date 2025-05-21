@@ -25,3 +25,16 @@ for x in range(10):
 
 for x in range(1,7,2):
     print(lista[x])
+
+##21 de mayo 
+if True:
+    print("hola")
+numeroa=0
+booleano=True
+while numeroa<255:
+    print("ingrese un numero")
+    numeroa=int(input(":"))
+    numerob=numeroa*2
+    print(numerob, end=";")
+    booleano=numeroa == 32
+
