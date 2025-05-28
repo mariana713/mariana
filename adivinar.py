@@ -1,4 +1,4 @@
-##consigna
+##consigna21/mayo
 
 import random
 adivinar = random.randint(0, 100)
@@ -20,3 +20,4 @@ while noAdivinar:
         print("el numero que tiene que adivinar es menor")
     if numeroc == adivinar:
         print("muy bien, adivinaste el numero")
+        noAdivinar = False
