@@ -39,3 +39,18 @@ def rango(start,stop,step):
     for i in range(start, stop, step):
         print(i, end=",")
 
+def nombreDeFuncion(parametros,argumentos):
+    numero1=ingresarNumero("ingrese un numero")
+    numero2=ingresarNumero("ingrese otro numero")
+    sumaNumeros(numero1, numero2)
+    menor(numero1, numero2)
+    mayor(numero1, numero2)
+    igual(numero1, numero2)
+    rango(1,100,2)
+    print("")
+
+    lista = [0,1,2,3,4,5,6,7]
+    for elemento in lista[:]:
+        lista[elemento]=elemento*2
+        print(lista[elemento], end=",")
+    print("")
