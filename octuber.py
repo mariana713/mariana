@@ -15,14 +15,17 @@ instancia.imprimir()
 
 
 
-##ejercicio:crear una clase que sume dos numeros y los muestre por pantalla
+##ejercicio:crear una clase que pida que ingrese dos numeros, los sume y los muestre por pantalla
 class SumaNumeros:
-    def __init__(self, numero1, numero2):
-        self.numero1 = numero1
-        self.numero2 = numero2
+    def __init__(self):
+        self.numero1 = float(input("Por favor, ingrese el primer número: "))
+        self.numero2 = float(input("Ahora ingrese el segundo número: "))
 
     def sumar(self):
         return self.numero1 + self.numero2
-    
-    def mostrar(self):
-        print("La suma de", self.numero1, "y", self.numero2, "es:", self.sumar())
+
+    def mostrar_suma(self):
+        print ("La suma de ambos números da:", self.sumar())
+
+instancia_suma = SumaNumeros()
+instancia_suma.mostrar_suma()
